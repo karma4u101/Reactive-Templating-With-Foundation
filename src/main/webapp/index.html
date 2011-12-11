@@ -1,18 +1,30 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta content="text/html; charset=UTF-8" http-equiv="content-type" />
-    <title>Home</title>
-  </head>
-  <body class="lift:content_id=main">
-    <div id="main" class="lift:surround?with=default-foundation;at=content">
-      <h2>Welcome to your project!</h2>
-      <p>
-	<span class="lift:helloWorld.howdy">
-	  Welcome to your Lift app at <span id="time">Time goes here</span>
-	</span>
-      </p>
-    </div>
-  </body>
+<head>
+	<!-- Included CSS Files used when viewing the raw template-->
+	<link rel="stylesheet" href="/css/foundation.css">
+	<link rel="stylesheet" href="/css/app.css">
+<meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+<title>Home</title>
+</head>
+<body class="lift:content_id=main">
+	<div id="main" class="lift:surround?with=default-foundation;at=content">
+
+		<div class="row">
+			<!-- The grid -->
+			<span class='lift:embed?what=_embededTheGrid'>Embed the grid
+				here.</span>
+
+			<!-- side columns  -->
+			<span class='lift:embed?what=_embededSideColumns'>Embed the
+				side columns here.</span>
+		</div>
+
+		<hr />
+		<!-- the footer  -->
+		<span class='lift:embed?what=_embededFotter'>Embed the footer
+			here.</span>
+	</div>		
+</body>
 </html>
 
