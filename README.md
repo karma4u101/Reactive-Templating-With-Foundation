@@ -3,13 +3,21 @@ Reactive Templating With Foundation
 
 **This is work in progress!** Check back later for a better experience. 
 
+The intention of this example is to show some of Lifts templating features in conjunction with the front-end toolkit 
+[ZURB/Foundation](http://foundation.zurb.com/) and in particular fondations semi-liquid, mobile-scaling grid.  
+
+One of lifts many great features is its clean and flexible templating system. For convenience and to give some styling 
+to Lift and it's templates Lift comes by default, at this writing, bundled with [blueprint](http://blueprintcss.org/) as hooked 
+up CSS framework here you will see blueprint replaced by another very popular toolkit. 
+  
+  
 This _unofficial*_ example is intended for those of you who need some compact and concise running and mostly ;) simple to follow example of a particular 
 feature or concept in Lift.
 
 After many years of Java EE development I started look at Scala/Lift in May 2011 so there may be some none "best practice" stuff in there 
 and if you find something you think could be done in a more Scala/Lift fashion please let me know.
 
-Improvements and suggestions are welcome!
+Improvements, contributions and suggestions are welcome!
 
 best regards Peter Petersson 
 
@@ -20,8 +28,8 @@ You don't need to use it but the project also includes a Eclipse plug-in for bro
 
 1) Get the examples
 
-	git clone git@github.com:karma4u101/SEO-Friendly-Menu-Params.git
-	cd SEO-Friendly-Menu-Params
+	git clone git@github.com:karma4u101/Reactive-Templating-With-Foundation.git
+	cd Reactive-Templating-With-Foundation
 
 2) Update & Run Jetty
 
