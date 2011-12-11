@@ -8,7 +8,8 @@ The intention of this example is to show some of Lifts templating features in co
 
 One of lifts many great features is its clean and flexible templating system. For convenience and to give some styling 
 to Lift and it's templates Lift comes by default, at this writing, bundled with [blueprint](http://blueprintcss.org/) as hooked 
-up CSS framework here you will see blueprint replaced by another very popular toolkit. 
+up CSS framework here you will see blueprint replaced by another toolkit that lets you utilize a powerful [reactive web design](http://www.google.com/search?client=ubuntu&channel=fs&q=scalability&ie=utf-8&oe=utf-8#sclient=psy-ab&hl=sv&client=ubuntu&hs=7bM&channel=fs&source=hp&q=reactive%20web%20design&pbx=1&oq=&aq=&aqi=&aql=&gs_sm=&gs_upl=&bav=on.2,or.r_gc.r_pw.,cf.osb&fp=1d39e901c42700bd&biw=1334&bih=833&pf=p&pdl=500) 
+that has mobile scalability. 
   
   
 This _unofficial*_ example is intended for those of you who need some compact and concise running and mostly ;) simple to follow example of a particular 
