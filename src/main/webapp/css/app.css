@@ -1,5 +1,3 @@
-/* Foundation v2.1.3 http://foundation.zurb.com */
-/* Artfully masterminded by ZURB  */
 
 /* -------------------------------------------------- 
    Table of Contents
@@ -93,10 +91,20 @@
 
 
 /* -----------------------------------------
-   Page Name 1
+  Footer
 ----------------------------------------- */
-
-
+#theFooter .alt {
+	color: #666666;
+	font-family: "Warnock Pro", "Goudy Old Style", "Palatino",
+		"Book Antiqua", Georgia, serif;
+	font-style: italic;
+	font-weight: normal;
+}
+#theFooter h4 {
+	font-size: 1.2em;
+	line-height: 1.25;
+	margin-bottom: 1.25em;
+}
 
 
 /* -----------------------------------------
