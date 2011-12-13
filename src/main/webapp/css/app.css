@@ -9,7 +9,47 @@
 :: Page Name 2
 */
 
+/* -------------------------------------------------- 
+   Orbit 
+-----------------------------------------------------*/
+#orbit4u .content {
+	background: url(../orbit/dummy-images/coffee-940x450.jpg); 
+}
+#orbit4u .content h1 {
+	font-family: 'Helvetica', 'Arial', serif;
+	color: #2f260f; 
+	font-weight: bold !important;
+	text-transform: uppercase; 
+	text-shadow: 
+		1px 1px 0 #f8f0d1,
+		2px 2px 0 #f8f0d1,
+		3px 3px 0 #1a5774;
+	text-align: center; 
+	margin-top: 5%;
+}
+#orbit4u .content h3 {
+	font-family: 'Helvetica', 'Arial', serif;
+	color: #7f6b37; 
+	font-weight: bold !important;
+	text-align: center; 
+}
 
+#orbit4u { background: url(../orbit/images/spinner.gif) no-repeat center center #000; height: 305px; margin-bottom: 20px; }
+#orbit4u.orbit { height: auto; }
+
+/* #orbit4u img, #orbit4u div { display: none; } */
+#orbit4u.orbit img, #orbit4u.orbit div { display: block; }
+
+@media handheld, only screen and (max-width: 767px) {
+
+	#orbit4u { height: 165px; }
+	#orbit4u.orbit { height: auto; }
+
+	dl.nice.tabs.mobile { margin-bottom: 0px; }
+	.nice.tabs.mobile dd a { padding: 12px 20px; }
+	
+	div.foundation-header h1 { font-size: 32px; font-size: 3.2rem; }
+}
 /* -----------------------------------------
    Shared Styles
 ----------------------------------------- */

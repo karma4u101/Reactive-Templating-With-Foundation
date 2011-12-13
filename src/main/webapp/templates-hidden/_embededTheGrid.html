@@ -2,109 +2,116 @@
 <html>
 <head>
 <meta content="text/html; charset=UTF-8" http-equiv="content-type" />
-	<!-- Set the viewport width to device width for mobile -->
-	<meta name="viewport" content="width=device-width" />
-	<!-- Included CSS Files used when viewing the raw template-->
-	<link media="screen" rel="stylesheet" href="/css/foundation.css">
-	<link media="screen" rel="stylesheet" href="/css/app.css">	
+<!-- Set the viewport width to device width for mobile -->
+<meta name="viewport" content="width=device-width" />
+<!-- Included CSS Files used when viewing the raw template-->
+<link media="screen" rel="stylesheet" href="/css/foundation.css">
+<link media="screen" rel="stylesheet" href="/css/app.css">
 <title>Embeded Header template</title>
 </head>
 
 <!-- This is a embedable piece of html so we will surround it with a blank template -->
 <body class="lift:content_id=theGrid">
-					
-			<div id="theGrid" class="eight columns">
-				<h3>The Grid</h3>
-				<!-- twelve columns row section  -->
-				<div class="row">
-					<div class="twelve columns">
-						<div class="panel">
-							<h2>Welcome to your project!</h2>
-							<p>This is a twelve column section in a row. Each of these
-								includes a div.panel element so you can see where the columns
-								are - it's not required at all for the grid.</p>
-							<span class="lift:helloWorld.howdy"> Welcome to your Lift
-								app at <span id="time">Time goes here</span> </span>
-							</p>
-						</div>
-					</div>				    
-				</div>
-				
-				<!-- six columns row section  -->
-				<div class="row">
-					<div class="six columns">
-						<div class="panel">
-							<p>Six columns</p>
-						</div>
-					</div>
-					<div class="six columns">
-						<div class="panel">
-							<p>Six columns</p>
-						</div>
-					</div>
-				</div>
-				
-				<!-- four columns row section  -->
-				<div class="row">
-					<div class="four columns">
-						<div class="panel">
-							<p>Four columns</p>
-						</div>
-					</div>
-					<div class="four columns">
-						<div class="panel">
-							<p>Four columns</p>
-						</div>
-					</div>
-					<div class="four columns">
-						<div class="panel">
-							<p>Four columns</p>
-						</div>
-					</div>
-				</div>
 
-                <!-- six columns nested row section  -->
-				<div class="row">
-					<div class="six columns">
-						<div class="panel">
-							<p>Six columns</p>
-							<div class="row">
-								<div class="nowrap">
-									<div class="six columns">
-										<div class="panel">
-											<p>Nested columns</p>
-										</div>
-									</div>
-									<div class="six columns">
-										<div class="panel">
-											<p>Nested columns</p>
-										</div>
-									</div>
+	<div id="theGrid" class="eight columns">
+		<h3>This Grid Rocks! </h3>
+
+		<!-- The orbit -->
+		<span class='lift:embed?what=_embededOrbit'>Embed orbit here.</span>
+
+		<!-- twelve columns row section  -->
+		<div class="row">
+			<div class="twelve columns">
+				<div class="panel">
+<!-- 					<h2>Welcome to your project!</h2> -->
+					<h2>Awesome mobile scalability!</h2>
+					<p>This is a twelve column section in a row. Each of these
+						includes a div.panel element so you can see where the columns are
+						- it's not required at all for the grid.</p>
+						<h3>Resize the window to see the effect! </h3>
+					<span class="lift:helloWorld.howdy"> Welcome to your Lift
+						app at <span id="time">Time goes here</span> </span>
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- six columns row section  -->
+		<div class="row">
+			<div class="six columns">
+				<div class="panel">
+					<p>Six columns</p>
+				</div>
+			</div>
+			<div class="six columns">
+				<div class="panel">
+					<p>Six columns</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- four columns row section  -->
+		<div class="row">
+			<div class="four columns">
+				<div class="panel">
+					<p>Four columns</p>
+				</div>
+			</div>
+			<div class="four columns">
+				<div class="panel">
+					<p>Four columns</p>
+				</div>
+			</div>
+			<div class="four columns">
+				<div class="panel">
+					<p>Four columns</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- six columns nested row section  -->
+		<div class="row">
+			<div class="six columns">
+				<div class="panel">
+					<p>Six columns</p>
+					<div class="row">
+						<div class="nowrap">
+							<div class="six columns">
+								<div class="panel">
+									<p>Nested columns</p>
 								</div>
 							</div>
-						</div>
-					</div>
-					<div class="six columns">
-						<div class="panel">
-							<p>Six columns</p>
-							<div class="row">
-								<div class="six columns">
-									<div class="panel">
-										<p>Nested columns</p>
-									</div>
-								</div>
-								<div class="six columns">
-									<div class="panel">
-										<p>Nested columns</p>
-									</div>
+							<div class="six columns">
+								<div class="panel">
+									<p>Nested columns</p>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-				
-				
-				<!--  		
+			</div>
+			<div class="six columns">
+				<div class="panel">
+					<p>Six columns</p>
+					<div class="row">
+						<div class="six columns">
+							<div class="panel">
+								<p>Nested columns</p>
+							</div>
+						</div>
+						<div class="six columns">
+							<div class="panel">
+								<p>Nested columns</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+		<!--  		
 				<h3>Tabs</h3>
 				<dl class="tabs">
 					<dd><a href="#simple1" class="active">Simple Tab 1</a></dd>
@@ -128,8 +135,9 @@
 				<p><a href="#" class="nice radius blue button">Nice Blue Button</a></p>
 				<p><a href="#" class="nice radius large blue button">Nice Blue Button</a></p>
                -->
-			</div><!-- end the grid -->					
-	
-	
+	</div>
+	<!-- end the grid -->
+
+
 
 </body>
