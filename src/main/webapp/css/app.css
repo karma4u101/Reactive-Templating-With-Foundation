@@ -10,8 +10,9 @@
 /* -------------------------------------------------- 
    Orbit 
 -----------------------------------------------------*/
+
 #orbit4u .content {
-	background: url(../orbit/dummy-images/coffee-940x450.jpg); 
+	background: url(/orbit/dummy-images/coffee-940x450.jpg); 
 }
 #orbit4u .content h1 {
 	font-family: 'Helvetica', 'Arial', serif;
@@ -32,7 +33,7 @@
 	text-align: center; 
 }
 
-#orbit4u { background: url(../orbit/images/spinner.gif) no-repeat center center #000; height: 305px; margin-bottom: 20px; }
+#orbit4u { background: url(/orbit/images/spinner.gif) no-repeat center center #000; height: 305px; margin-bottom: 20px; }
 #orbit4u.orbit { height: auto; }
 
 /* #orbit4u img, #orbit4u div { display: none; } */
