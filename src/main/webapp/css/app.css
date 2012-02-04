@@ -10,9 +10,21 @@
 /* -------------------------------------------------- 
    Orbit 
 -----------------------------------------------------*/
-
+#orbit4u-wrapper div{
+	max-height: 360px; 
+	max-width:940px;
+/* 	margin-bottom:20px; */
+}
+#orbit4u { 
+ 	width: 0px; 
+/* 	height: 360px; */
+	background: #000 url('/classpath/fobo/images/orbit/loading.gif') no-repeat center center;
+	overflow: hidden; }
+#orbit4u>img,  
+#orbit4u>div,
+#orbit4u>a { display: none; }
 #orbit4u .content {
-	background: url(/orbit/dummy-images/coffee-940x450.jpg); 
+	background: url(../images/dummy-images/coffee-940x450.jpg); 
 }
 #orbit4u .content h1 {
 	font-family: 'Helvetica', 'Arial', serif;
@@ -33,7 +45,7 @@
 	text-align: center; 
 }
 
-#orbit4u { background: url(/orbit/images/spinner.gif) no-repeat center center #000; height: 305px; margin-bottom: 20px; }
+#orbit4u { background: url('/classpath/fobo/images/orbit/spinner.gif') no-repeat center center #000; height: 305px; margin-bottom: 20px; }
 #orbit4u.orbit { height: auto; }
 
 /* #orbit4u img, #orbit4u div { display: none; } */

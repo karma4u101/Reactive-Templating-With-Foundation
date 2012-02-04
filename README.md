@@ -3,6 +3,8 @@ Reactive Templating With Foundation
 
 **This is work in progress!** You can take a peek at it right now but i suggest you also check back later for a better experience. 
 
+This example is now using the [FoBo - Lift Front-End Toolkit Module](https://github.com/karma4u101/FoBo) 
+
 The intention of this example is to show some of Lifts templating features in conjunction with the front-end toolkit 
 [ZURB/Foundation](http://foundation.zurb.com/) and in particular fondations reactive semi-liquid, mobile-scaling grid.  
 
