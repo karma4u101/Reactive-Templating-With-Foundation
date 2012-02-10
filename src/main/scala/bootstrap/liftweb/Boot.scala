@@ -10,6 +10,7 @@ import sitemap._
 import Loc._
 import mapper._
 import net.liftweb.squerylrecord.RecordTypeMode._
+import net.liftmodules.FoBo._
 
 import code.model._
 import code.snippet._
@@ -24,7 +25,9 @@ class Boot extends Loggable {
     // where to search snippet
     LiftRules.addToPackages("code")
     
-    net.liftmodules.FoBo.FoBo.init()
+    FoBoInitParams.JQuery=JQuery171  
+    FoBoInitParams.ToolKit=Foundation215    
+    FoBo.init()
 
     /*un-comment and switch to db of your liking */
     MySchemaHelper.initSquerylRecordWithInMemoryDB
@@ -61,12 +64,14 @@ class Boot extends Loggable {
       ARegion.menu,
       L0.menu,
       L1.menu,
-      L2.menu,
+      L2.menu
 
       // more complex because this menu allows anything in the
       // /static path to be visible
-      Menu(Loc("Foundation", Link(List("static"), true, "/static/index"),
-        "Foundation")))
+//      Menu(Loc("Static", Link(List("static"), true, "/static/index"),"Static Content"))
+    )
+            
+              
 
     //def sitemapMutators = User.sitemapMutator
 
